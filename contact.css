@@ -531,3 +531,12 @@ body {
   }
 }
 
+.section__header3{
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
