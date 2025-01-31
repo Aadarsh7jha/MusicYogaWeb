@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+
 }
 .info_Music{
     padding: 50px 100px;
@@ -11,11 +12,18 @@
    font-weight: 400;
    font-size: 35px;
    text-align: left;
+   font-family: Copperplate Gothic;
 }
 
 .info_Music h3{
     font-weight: 400;
+    font-family: Copperplate Gothic;
     font-size: 30px;
+ }
+
+ .info_Music p{
+    font-family: none;
+    font-size: 17px;
  }
 
 
