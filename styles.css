@@ -146,11 +146,6 @@ header::before {
 
 .header__content {
   z-index: 1;
-  /* background: url(assets/logo3.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; */
-
 }
 
 .header__content h1 {
@@ -862,4 +857,7 @@ header::before {
     column-gap: 3rem;
   }
 }
+
+
+
 

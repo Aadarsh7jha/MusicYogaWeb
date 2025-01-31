@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.info_Music{
+    padding: 50px 100px;
+   
+}
+.info_Music h2{
+   font-weight: 400;
+   font-size: 35px;
+   text-align: left;
+}
+
+.info_Music h3{
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+
+
+p{
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 10px;
+   background-color: wheat;
+    margin: auto;
+}
+
+.container ul li strong{
+    font-size: 25px;
+    font-weight: 400;
+    display: block;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+li {
+    /* margin: 10px 0; */
+    color: #555;
+}
+
+
+@media (max-width:768px) {
+    
+.info_Music{
+    padding: 30px 40px;
+   
+}
+.nav__links .links a{
+    margin: 0;
+    padding: 0;
+}
+nav .nav__links .links{
+    margin: 0;
+    padding: 0;
+}
+
+.info_Music{
+    padding: 40px 40px;
+   
+}
+.info_Music h2{
+   font-weight: 400;
+   font-size: 30px;
+   text-align: left;
+}
+
+.info_Music h3{
+    font-weight: 400;
+    font-size: 25px;
+ }
+
+}
+
+@media (max-width:600px) {
+    
+    .info_Music{
+        padding: 30px 30px;
+       
+    }
+    
+
+.info_Music h2{
+   font-weight: 500;
+   font-size: 27px;
+   text-align: left;
+}
+
+.info_Music h3{
+    font-weight: 500;
+    font-size: 22px;
+ }
+    }
