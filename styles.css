@@ -73,7 +73,7 @@ body {
 
 body {
   font-family: "Work Sans", sans-serif;
-  background-color: wheat;
+  background-color: #efe8d6;
 }
 
 nav {
@@ -83,7 +83,6 @@ nav {
   width: 96%;
   display: flex;
   align-items: center;
-  background-color: wheat;
   justify-content: space-between;
   background-color: rgb(174, 98, 68); 
   border-radius: 30px;
@@ -649,8 +648,15 @@ header::before {
     width: 25px;
   }
 
+  .nav__links .link{
+    width: 100%;
+  }
   .nav__links .link a{
-    font-size: 0px;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
     /* transition: 0.7s; */
   }
   .nav__links.active {
@@ -664,19 +670,19 @@ header::before {
    font-size: 16px;
   }
 
-  .nav__links .link{
+  /* .nav__links .link{
     padding: 15px;
      width: 100%;
-  }
+  } */
   .nav__links .link a{
     padding: 15px;
     width: 100%;
   }
 
-  .nav__links .link:hover{
+  /* .nav__links .link:hover{
     background-color: rgb(41, 39, 39);
     color: rgb(255, 255, 255);
-  }
+  } */
   .nav__links .link a:hover{
     background-color: rgb(41, 39, 39);
     color: rgb(255, 255, 255);
