@@ -1,9 +1,9 @@
 /* ===( Aadarsh )=== */
-const scrollRevealOption = {
-  distance: "50px",
-  origin: "bottom",
-  duration: 1000,
-};
+// const scrollRevealOption = {
+//   distance: "50px",
+//   origin: "bottom",
+//   duration: 1000,
+// };
 
 // header container
 ScrollReveal().reveal(".header__container h1", {

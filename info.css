@@ -26,7 +26,25 @@
     font-size: 17px;
  }
 
+ #vid_mm{
+    width: 70%;
+    margin-left: 50%;
+    transform: translate(-50%);
+ }
 
+ .arunSirImg{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+ .arunSirImg img{
+    height: 300px;
+    width: auto;
+ }
 
 p{
     text-align: justify;
@@ -90,6 +108,31 @@ nav .nav__links .links{
     font-weight: 400;
     font-size: 25px;
  }
+
+ #vid_mm{
+    width: 90%;
+    margin-left: 50%;
+    transform: translate(-50%);
+ }
+
+ .arunSirImg{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+ .arunSirImg img{
+    height: auto;
+    width: 45%;
+ }
+
+ .arunSirImg .img{
+    margin-top: 70px;
+ }
+
 
 }
 
