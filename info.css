@@ -35,7 +35,8 @@ body{
  }
 
  #vid_mm{
-    width: 70%;
+    width: 80%;
+   margin-left: 4rem;
     /* margin-left: 50%;
     transform: translate(-50%); */
  }
