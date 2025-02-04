@@ -4,8 +4,16 @@
    box-sizing: border-box;
 
 }
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .info_Music{
-    padding: 50px 100px;
+    width: 100%;
+    padding: 50px 80px;
    
 }
 .info_Music h2{
@@ -28,8 +36,8 @@
 
  #vid_mm{
     width: 70%;
-    margin-left: 50%;
-    transform: translate(-50%);
+    /* margin-left: 50%;
+    transform: translate(-50%); */
  }
 
  .arunSirImg{
@@ -81,10 +89,7 @@ li {
 
 @media (max-width:768px) {
     
-.info_Music{
-    padding: 30px 40px;
-   
-}
+
 .nav__links .links a{
     margin: 0;
     padding: 0;
@@ -94,10 +99,10 @@ nav .nav__links .links{
     padding: 0;
 }
 
-.info_Music{
+/* .info_Music{
     padding: 40px 40px;
    
-}
+} */
 .info_Music h2{
    font-weight: 400;
    font-size: 30px;
@@ -110,9 +115,8 @@ nav .nav__links .links{
  }
 
  #vid_mm{
-    width: 90%;
-    margin-left: 50%;
-    transform: translate(-50%);
+    width: 100%;
+   margin: auto;
  }
 
  .arunSirImg{
@@ -121,17 +125,23 @@ nav .nav__links .links{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
+    margin-top: 30px;
  }
 
  .arunSirImg img{
     height: auto;
-    width: 45%;
+    width: 100%;
  }
 
- .arunSirImg .img{
+ /* .arunSirImg .img{
     margin-top: 70px;
- }
+ } */
+
+ .info_Music{
+    padding: 0px 0px;
+   
+}
 
 
 }
@@ -139,7 +149,10 @@ nav .nav__links .links{
 @media (max-width:600px) {
     
     .info_Music{
-        padding: 30px 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
        
     }
     
