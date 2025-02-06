@@ -65,7 +65,8 @@ p{
 .container {
     background: #ffffff;
     border-radius: 10px;
-   background-color: wheat;
+   background-color: rgb(240, 232, 219);
+   padding-bottom: 30px;
     margin: auto;
 }
 
