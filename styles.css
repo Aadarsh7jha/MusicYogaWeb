@@ -779,9 +779,6 @@ header::before {
 }
 
 @media (width < 600px) {
-  /* .nav__links {
-    width: 60%;
-  } */
 
   
   .why__container {

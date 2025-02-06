@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contsiner_about{
+    width: 100%;
+    padding: 30px 80px;
+    background-color: rgb(237, 226, 205);
+   
+}
+
+.contsiner_about .Arun_ji .info{
+    width: 70%;
+    padding: 40px;
+}
+
+.contsiner_about .Arun_ji{
+    box-shadow: 5px 5px 10px rgb(78, 76, 76);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.contsiner_about .Arun_ji{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contsiner_about .Arun_ji .img{
+    width: 30%;
+}
+.contsiner_about .Arun_ji .img img{
+    width: 100%;
+}
+
+.contsiner_about .Arun_ji .info ul li{
+    margin: 10px;
+    font-weight: 500;
+}
+p{
+    text-align: justify;
+}
+
+.Award h2{
+  margin: 25px 0px 8px 0px;
+  font-weight: 600;
+  background-color: rgb(95, 30, 30);
+  font-size: 20px;
+  color: #f2ecde;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+
+.Award p{
+    margin: 10px;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 15px;
+}
