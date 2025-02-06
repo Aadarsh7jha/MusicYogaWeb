@@ -39,6 +39,17 @@
     margin: 10px;
     font-weight: 500;
 }
+
+.contsiner_about .Arun_ji .info p u{
+    margin: 10px;
+    font-weight: 600;
+}
+.contsiner_about .Arun_ji .info p{
+    margin: 10px;
+}
+.contsiner_about .Arun_ji .info p i{
+    font-size: 20px;
+}
 p{
     text-align: justify;
 }
@@ -49,14 +60,130 @@ p{
   background-color: rgb(95, 30, 30);
   font-size: 20px;
   color: #f2ecde;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+ padding: 10px;
   padding-left: 20px;
 }
 
+details summary{
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Award h2 i{
+    font-size: 35px;
+    margin-right: 20px;
+}
 
 .Award p{
     margin: 10px;
     font-weight: 400;
     text-align: justify;
     font-size: 15px;
+}
+
+
+@media (max-width:1080px) {
+    .contsiner_about{
+        width: 100%;
+        padding: 15px 40px;
+        background-color: rgb(237, 226, 205);
+    }
+    
+    .contsiner_about .Arun_ji .info{
+        width: 60%;
+        padding: 40px;
+    }
+    
+    .contsiner_about .Arun_ji{
+        box-shadow: 5px 5px 10px rgb(78, 76, 76);
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+
+    .contsiner_about .Arun_ji .img{
+        width: 40%;
+    }
+
+    
+.contsiner_about .Arun_ji .info ul li{
+    margin: 8px;
+    font-weight: 500;
+}
+
+
+.contsiner_about .Arun_ji .info p{
+    font-size: 14px;
+    margin: 8px;
+    margin-top: 0;
+}
+.contsiner_about .Arun_ji .info p i{
+    font-size: 18px;
+}
+
+
+
+
+.Award h2{
+    margin: 20px 0px 8px 0px;
+    font-weight: 600;
+    font-size: 18px;
+   padding: 8px;
+    padding-left: 20px;
+  }
+
+  .contsiner_about .Award p{
+    font-size: 15px;
+  }
+  
+  details summary{
+      text-align: center;
+      cursor: pointer;
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 18px;
+  }
+  
+  .Award h2 i{
+      font-size: 30px;
+      margin-right: 20px;
+  }
+  
+
+}
+
+@media (max-width:768px) {
+    .contsiner_about .Arun_ji{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+
+    .contsiner_about{
+        width: 100%;
+        padding: 15px 15px;
+        background-color: rgb(237, 226, 205);
+    }
+    
+    .contsiner_about .Arun_ji .info{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .contsiner_about .Arun_ji{
+        box-shadow: 5px 5px 10px rgb(78, 76, 76);
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+
+    .contsiner_about .Arun_ji .img{
+        width: 50%;
+    }
+
 }
