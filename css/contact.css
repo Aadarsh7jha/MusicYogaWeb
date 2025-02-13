@@ -463,19 +463,8 @@ body {
 .info_Music p{
   text-align: justify;
 }
-.map {
-  display: flex;
 
-  box-sizing: border-box;
-  padding: 0px 80px;
-  align-items: center;
-  align-items: center;
-}
-.map iframe{
-  width: 90%;
-  height: 300px;
-  margin-bottom: 20px;
-}
+
 @media (max-width: 1024px) {
   .wk-ipadp-1 {
     width: 8.333333%;
@@ -591,19 +580,8 @@ body {
     width: 100%;
   }
 
-  .map {
-    display: flex;
-  
-    box-sizing: border-box;
-    padding: 0px 30px;
-    align-items: center;
-    align-items: center;
-  }
-  .map iframe{
-    width: 100%;
-    height: 250px;
-    margin-bottom: 20px;
-  }
+
+
 }
 
 @media (max-width: 500px) {

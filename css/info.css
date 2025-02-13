@@ -35,8 +35,10 @@ body{
  }
 
  #vid_mm{
-    width: 80%;
+    width: 40%;
+    display: inline-block;
    margin-left: 4rem;
+
     /* margin-left: 50%;
     transform: translate(-50%); */
  }
@@ -116,10 +118,7 @@ nav .nav__links .links{
     font-size: 25px;
  }
 
- #vid_mm{
-    width: 100%;
-   margin: auto;
- }
+
 
  .arunSirImg{
     display: flex;
@@ -131,6 +130,12 @@ nav .nav__links .links{
     margin-top: 30px;
  }
 
+ #vid_mm{
+    display: inline-block;
+    width: 80%;
+    margin-left: 8vw;
+    margin-top: 30px;
+ }
  .arunSirImg img{
     height: auto;
     width: 100%;
